@@ -1,6 +1,6 @@
 # R Submissions Pilot 4 ECTD Package
 
-2024-09-13T16:08:57+00:00
+2024-09-13T18:11:40+00:00
 
 > Do not include `README.md` and `.gitignore` files into the final
 > submission.
@@ -35,7 +35,9 @@ repository for the electronic gateway transfer:
     archive of the repostory using
     <https://github.com/RConsortium/submissions-pilot4-webR-to-fda/archive/refs/heads/main.zip>
     and extract to your local machine.
-2.  Download the `r4app.zip` archive from [this
+2.  Create a new directory called `programs` in the
+    `m5/datasets/rconsortiumpilot4webR/analysis/adam/` directory.
+3.  Download the `r4app.zip` archive from [this
     link](https://rsubmission-draft.us-east-1.linodeobjects.com/r4app.zip)
     and save it to the
     `m5/datasets/rconsortiumpilot4webR/analysis/adam/programs/`
@@ -97,7 +99,7 @@ Other files: (**Do not include in eCTD package**)
 ## News
 
 The ECTD bundle and associated compiled application archive were last
-rendered on 2024-09-13T16:08:57+00:00 .
+rendered on 2024-09-13T18:11:40+00:00 .
 
 ## Questions
 

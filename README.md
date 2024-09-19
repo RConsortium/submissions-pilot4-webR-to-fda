@@ -1,6 +1,6 @@
 # R Submissions Pilot 4 ECTD Package
 
-2024-09-13T18:11:40+00:00
+2024-09-19T16:42:51+00:00
 
 > Do not include `README.md` and `.gitignore` files into the final
 > submission.
@@ -99,7 +99,7 @@ Other files: (**Do not include in eCTD package**)
 ## News
 
 The ECTD bundle and associated compiled application archive were last
-rendered on 2024-09-13T18:11:40+00:00 .
+rendered on 2024-09-19T16:42:51+00:00 .
 
 ## Questions
 

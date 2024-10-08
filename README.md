@@ -22,7 +22,7 @@ collaboration through the non-profit organization R consortium.
 To learn more about other pilots, visit [the R consortium R submission
 working group website](https://rconsortium.github.io/submissions-wg/)
 and the [R consortium working group
-page](https://www.r-consortium.org/projects/isc-working-groups).
+page](https://r-consortium.org/all-projects/isc-working-groups.html).
 
 ## Instructions for Electronic Gateway Transfer
 

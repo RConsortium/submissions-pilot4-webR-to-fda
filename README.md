@@ -1,6 +1,6 @@
 # R Submissions Pilot 4 ECTD Package
 
-2024-09-19T19:10:29+00:00
+2025-05-03T03:55:00+00:00
 
 > Do not include `README.md` and `.gitignore` files into the final
 > submission.
@@ -23,24 +23,6 @@ To learn more about other pilots, visit [the R consortium R submission
 working group website](https://rconsortium.github.io/submissions-wg/)
 and the [R consortium working group
 page](https://www.r-consortium.org/projects/isc-working-groups).
-
-## Instructions for Electronic Gateway Transfer
-
-Due to a limitation on file size imposed by GitHub, this repostitory
-does not include the pilot 4 pre-compiled application file `r4app.zip`.
-Please use the following procedure to prepare the local clone of this
-repository for the electronic gateway transfer:
-
-1.  Clone this repository to your local machine or download the ZIP
-    archive of the repostory using
-    <https://github.com/RConsortium/submissions-pilot4-webR-to-fda/archive/refs/heads/main.zip>
-    and extract to your local machine.
-2.  Create a new directory called `programs` in the
-    `m5/datasets/rconsortiumpilot4/analysis/adam/` directory.
-3.  Download the `r4app.zip` archive from [this
-    link](https://rsubmission-draft.us-east-1.linodeobjects.com/r4app.zip)
-    and save it to the
-    `m5/datasets/rconsortiumpilot4/analysis/adam/programs/` directory.
 
 ## FDA Response
 
@@ -88,7 +70,7 @@ eCTD package:
                     │   ├── define.xml        # ADaM data define file
                     │   └── define2-0-0.xsl
                     └── programs
-                        ├── r4app.zip         # Pre-compiled application in zip archive
+                        ├── pilot4_webR_pkglite.txt         # pkglite bundle
 
 Other files: (**Do not include in eCTD package**)
 
@@ -97,8 +79,7 @@ Other files: (**Do not include in eCTD package**)
 
 ## News
 
-The ECTD bundle and associated compiled application archive were last
-rendered on 2024-09-19T19:10:29+00:00 .
+The ECTD bundle was last rendered on 2025-05-03T03:55:00+00:00 .
 
 ## Questions
 

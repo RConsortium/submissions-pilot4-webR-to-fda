@@ -2100,6 +2100,29 @@ Content:
   }
 
 Package: pilot4webR
+File: submissions-pilot4-webr.Rproj
+Format: text
+Content:
+  Version: 1.0
+  
+  RestoreWorkspace: Default
+  SaveWorkspace: Default
+  AlwaysSaveHistory: Default
+  
+  EnableCodeIndexing: Yes
+  UseSpacesForTab: Yes
+  NumSpacesForTab: 2
+  Encoding: UTF-8
+  
+  RnwWeave: Sweave
+  LaTeX: pdfLaTeX
+  
+  AutoAppendNewline: Yes
+  StripTrailingWhitespace: Yes
+  
+  BuildType: Makefile
+
+Package: pilot4webR
 File: utils.R
 Format: text
 Content:
@@ -2275,6 +2298,7 @@ Content:
   create_env_pkglite_bundle <- function(
     source_app_dir = "app", 
     renv_lockfile = "renv.lock",
+    rstudio_project_file = "submissions-pilot4-webr.Rproj",
     utils_file = "utils.R",
     pkglite_file = "pilot4_webR_env.txt"
   ) {
@@ -2283,11 +2307,19 @@ Content:
     working_dir <- tempdir()
     file.copy(file.path(source_app_dir, "DESCRIPTION"), working_dir)
     file.copy(renv_lockfile, working_dir)
+    file.copy(rstudio_project_file, working_dir)
     file.copy(utils_file, working_dir)
   
     renv_spec <- pkglite::file_spec(
       ".",
       pattern = "\\.lock",
+      format = "text",
+      recursive = FALSE
+    )
+  
+    rstudio_proj_spec <- pkglite::file_spec(
+      ".",
+      pattern = "\\.Rproj",
       format = "text",
       recursive = FALSE
     )
@@ -2302,6 +2334,7 @@ Content:
     pkglite::collate(
       pkg = working_dir,
       renv_spec,
+      rstudio_proj_spec,
       utils_spec
     ) |>
       pkglite::pack(output = file.path("dev", pkglite_file))

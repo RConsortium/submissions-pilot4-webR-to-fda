@@ -1,6 +1,6 @@
 # R Submissions Pilot 4 ECTD Package
 
-2025-06-09T21:36:43+00:00
+2025-06-10T04:08:19+00:00
 
 > Do not include `README.md` and `.gitignore` files into the final
 > submission.
@@ -70,8 +70,8 @@ eCTD package:
                     │   ├── define.xml        # ADaM data define file
                     │   └── define2-0-0.xsl
                     └── programs
-                        ├── pilot4_webR_env.txt
-                        └── pilot4_webR_pkglite.txt
+                        ├── pilot4_webR_pkglite.txt
+                        └── pkglite_utils.r
 
 Other files: (**Do not include in eCTD package**)
 
@@ -80,7 +80,7 @@ Other files: (**Do not include in eCTD package**)
 
 ## News
 
-The ECTD bundle was last rendered on 2025-06-09T21:36:43+00:00 .
+The ECTD bundle was last rendered on 2025-06-10T04:08:19+00:00 .
 
 ## Questions
 
